@@ -3,6 +3,7 @@
     <Header/>
     <Explanation/>
     <PrList/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
   import PrList from "@/components/ListPr.vue";
   import Header from "@/components/Header.vue";
   import Explanation from "@/components/Explanation.vue";
+  import Footer from "@/components/Footer.vue";
 
 
   export default Vue.extend({
@@ -19,6 +21,7 @@
     PrList,
     Header,
     Explanation,
+    Footer,
   }
 });
 </script>

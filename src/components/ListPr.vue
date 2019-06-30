@@ -1,5 +1,5 @@
 <template>
-  <div class="container max-w-2xl mx-auto">
+  <div class="container max-w-2xl mx-auto pb-20">
     <h3 class="bg-purple-400 rounded-t p-4 text-center text-white font-bold">The Spotlight</h3>
     <ul>
       <li v-for="pr in items" v-bind:key="pr.id" v-bind:pr="pr">
