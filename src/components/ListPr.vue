@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="max-w-2xl mx-auto">
     <li v-for="pr in items" v-bind:key="pr.id" v-bind:pr="pr">
       <ItemPr
         :pr="pr"
