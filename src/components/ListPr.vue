@@ -1,11 +1,14 @@
 <template>
-  <ul class="container max-w-2xl mx-auto">
-    <li v-for="pr in items" v-bind:key="pr.id" v-bind:pr="pr">
-      <ItemPr
-        :pr="pr"
-      />
-    </li>
-  </ul>
+  <div class="container max-w-2xl mx-auto">
+    <h3 class="bg-purple-400 rounded-t p-4 text-center text-white font-bold">The Spotlight</h3>
+    <ul>
+      <li v-for="pr in items" v-bind:key="pr.id" v-bind:pr="pr">
+        <ItemPr
+          :pr="pr"
+        />
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script lang="ts">
