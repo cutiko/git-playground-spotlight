@@ -22,7 +22,7 @@
       ItemPr
     },
     data() : ResponseWrapper {
-      return {total_count: 1, items: [{id:"", closed_at: "", user:{login: "", url:"", avatar_url: ""}}]}
+      return {total_count: 0, items: []}
     },
     created() : void {
       axios.get(URL).then(response=>this.items = response.data.items)
